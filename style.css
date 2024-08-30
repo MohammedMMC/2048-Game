@@ -1,12 +1,20 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #faf8ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #faf8ef;
+  flex-direction: column;
+  font-family: cursive, monospace;
 }
+
 canvas {
-    background-color: #bbada0;
-    border-radius: 10px;
+  background-color: #bbada0;
+  border-radius: 10px;
+}
+
+#timer {
+  font-size: 24px;
+  color: #776e65;
 }
